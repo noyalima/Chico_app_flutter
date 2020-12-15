@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
             children: [
               AppBottomBarItem(
                 icon: Icon(Icons.menu),
-                label: 'Visita',
+                label: 'Visitas',
                 onPressed: () => null,
               ),
               Expanded(
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
               ),
               AppBottomBarItem(
                 icon: Icon(Icons.list),
-                label: 'Tarefa',
+                label: 'Tarefas',
                 onPressed: () => null,
               ),
             ],
